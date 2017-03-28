@@ -10,11 +10,15 @@ public static void main(String[] args) {
 	email = JOptionPane.showInputDialog("Please Type your Email " + name);
 	System.out.println(email);
 	
+	String password;
+	password = JOptionPane.showInputDialog("Please type you password " + name);
+	
 	String yearBorn;
 	yearBorn = JOptionPane.showInputDialog("What year were you born?");
 	int born = Integer.parseInt(yearBorn);
-	System.out.println("You are "+ (2017 - born));
+	System.out.println("They are "+ (2017 - born));
 	JOptionPane.showMessageDialog(null, "You are " +(2017- born));
+	
 	String greeting = "Thanks "+ name;
 	JOptionPane.showMessageDialog(null, greeting);
 	
